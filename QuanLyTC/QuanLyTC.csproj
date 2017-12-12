@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4803A9AD-B6FE-4E66-A0C1-8FA9B6E55B6B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuanLyTC</RootNamespace>
+    <AssemblyName>QuanLyTC</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BUS\CTKhoanChiBUS.cs" />
+    <Compile Include="BUS\CTKhoanThuBUS.cs" />
+    <Compile Include="BUS\KhoanChiBUS.cs" />
+    <Compile Include="BUS\KhoanThuBUS.cs" />
+    <Compile Include="BUS\NguoiDungBUS.cs" />
+    <Compile Include="DAO\Connect.cs" />
+    <Compile Include="DAO\CTKhoanChiDAO.cs" />
+    <Compile Include="DAO\CTKhoanThuDAO.cs" />
+    <Compile Include="DAO\KhoanChiDAO.cs" />
+    <Compile Include="DAO\KhoanThuDAO.cs" />
+    <Compile Include="DAO\NguoiDungDAO.cs" />
+    <Compile Include="DTO\CTKhoanChiDTO.cs" />
+    <Compile Include="DTO\CTKhoanThuDTO.cs" />
+    <Compile Include="DTO\KhoanChiDTO.cs" />
+    <Compile Include="DTO\KhoanThuDTO.cs" />
+    <Compile Include="DTO\NguoiDungDTO.cs" />
+    <Compile Include="GUI\DangKi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DangKi.Designer.cs">
+      <DependentUpon>DangKi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fmain.Designer.cs">
+      <DependentUpon>fmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Program.cs" />
+    <Compile Include="GUI\SuaThongTinCaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\SuaThongTinCaNhan.Designer.cs">
+      <DependentUpon>SuaThongTinCaNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ThemChiTien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ThemChiTien.Designer.cs">
+      <DependentUpon>ThemChiTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ThemKhoanChi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ThemKhoanChi.Designer.cs">
+      <DependentUpon>ThemKhoanChi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ThemKhoanThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ThemKhoanThu.Designer.cs">
+      <DependentUpon>ThemKhoanThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ThemThuTien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ThemThuTien.Designer.cs">
+      <DependentUpon>ThemThuTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\DangKi.resx">
+      <DependentUpon>DangKi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fmain.resx">
+      <DependentUpon>fmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SuaThongTinCaNhan.resx">
+      <DependentUpon>SuaThongTinCaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ThemChiTien.resx">
+      <DependentUpon>ThemChiTien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ThemKhoanChi.resx">
+      <DependentUpon>ThemKhoanChi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ThemKhoanThu.resx">
+      <DependentUpon>ThemKhoanThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ThemThuTien.resx">
+      <DependentUpon>ThemThuTien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1454414974_shoping_cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1454414910_money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1456012350_shopping-cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1454415131_money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1456012516_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1454415168_users-70px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1454415293_circle-info-more-information-detail-outline-stroke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1456255961_add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1456256597_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1456256720_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tien.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tien1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1454431048_Log Out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1454415228_statistics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1454415293_circle-info-more-information-detail-outline-stroke1.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\1454431003_preferences-desktop-cryptography.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1454431048_Log Out1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1454431614_lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1454431661_lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1456270543_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1456270718_analytics_analyze_data_info_three_users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1456270656_lock.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

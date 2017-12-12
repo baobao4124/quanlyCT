@@ -1,0 +1,30 @@
+c:\users\taeung\documents\visual studio 2012\Projects\QuanLyTC\QuanLyTC\bin\Debug\QuanLyTC.exe
+c:\users\taeung\documents\visual studio 2012\Projects\QuanLyTC\QuanLyTC\bin\Debug\QuanLyTC.pdb
+c:\users\taeung\documents\visual studio 2012\Projects\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.csprojResolveAssemblyReference.cache
+c:\users\taeung\documents\visual studio 2012\Projects\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.Properties.Resources.resources
+c:\users\taeung\documents\visual studio 2012\Projects\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.csproj.GenerateResource.Cache
+c:\users\taeung\documents\visual studio 2012\Projects\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.exe
+c:\users\taeung\documents\visual studio 2012\Projects\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.pdb
+c:\users\taeung\documents\visual studio 2012\Projects\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.GUI.DangNhap.resources
+c:\users\taeung\documents\visual studio 2012\Projects\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.GUI.SuaThongTinCaNhan.resources
+c:\users\taeung\documents\visual studio 2012\Projects\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.GUI.ThemChiTien.resources
+c:\users\taeung\documents\visual studio 2012\Projects\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.GUI.ThemThuTien.resources
+c:\users\taeung\documents\visual studio 2012\Projects\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.exe.licenses
+C:\Users\Taeung\documents\visual studio 2012\Projects\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.fmain.resources
+C:\Users\Taeung\Documents\Visual Studio 2012\Projects\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.GUI.DangKi.resources
+C:\Users\Taeung\documents\visual studio 2012\Projects\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.GUI.ThemKhoanChi.resources
+C:\Users\Taeung\documents\visual studio 2012\Projects\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.GUI.ThemKhoanThu.resources
+D:\Download\QuanLyTC\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.csprojResolveAssemblyReference.cache
+D:\Download\QuanLyTC\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.GUI.DangKi.resources
+D:\Download\QuanLyTC\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.GUI.DangNhap.resources
+D:\Download\QuanLyTC\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.fmain.resources
+D:\Download\QuanLyTC\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.GUI.SuaThongTinCaNhan.resources
+D:\Download\QuanLyTC\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.GUI.ThemChiTien.resources
+D:\Download\QuanLyTC\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.GUI.ThemKhoanChi.resources
+D:\Download\QuanLyTC\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.GUI.ThemKhoanThu.resources
+D:\Download\QuanLyTC\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.GUI.ThemThuTien.resources
+D:\Download\QuanLyTC\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.Properties.Resources.resources
+D:\Download\QuanLyTC\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.csproj.GenerateResource.Cache
+D:\Download\QuanLyTC\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.exe.licenses
+D:\Download\QuanLyTC\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.exe
+D:\Download\QuanLyTC\QuanLyTC\QuanLyTC\obj\Debug\QuanLyTC.pdb
